@@ -1,4 +1,4 @@
-<img src="https://github.com/exyte/app-clips-demo/blob/master/Assets/header.png">
+<img src="https://github.com/exyte/app-clips-example/blob/master/Assets/header.png">
 
 # App Clips Example App
 
