@@ -12,7 +12,9 @@ struct SupportChatView: View {
                     HStack {
                         VStack(alignment: .trailing, spacing: 5) {
                             Text("Hello. How can I help you? 🙂")
-                            Text("18:06").font(Font.system(size: 12)).foregroundColor(Color.white.opacity(0.5))
+                            Text("18:06")
+                                .font(Font.system(size: 12))
+                                .foregroundColor(Color.white.opacity(0.5))
                         }
                         .padding(10)
                         .background(Color.blue.opacity(0.8))
@@ -24,7 +26,9 @@ struct SupportChatView: View {
                         Spacer()
                         VStack(alignment: .trailing, spacing: 5) {
                             Text("I'm not able to link my credit card 😞")
-                            Text("18:06").font(Font.system(size: 12)).foregroundColor(Color.white.opacity(0.5))
+                            Text("18:06")
+                                .font(Font.system(size: 12))
+                                .foregroundColor(Color.white.opacity(0.5))
                         }
                         .padding(10)
                         .background(Color.green.opacity(0.8))

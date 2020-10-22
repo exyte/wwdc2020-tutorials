@@ -112,7 +112,6 @@
 			children = (
 				66862E102536F83B004D4412 /* Shared */,
 				66576BF424B850FD0010E1E8 /* ScooterRentalApp.swift */,
-				66576BF824B850FE0010E1E8 /* Assets.xcassets */,
 				66576BF324B850FD0010E1E8 /* App */,
 				66FE1FEE24BC7AE30090F669 /* App Clip */,
 				66576BF224B850FD0010E1E8 /* Products */,
@@ -185,6 +184,7 @@
 				66862DC72536F52D004D4412 /* Extensions */,
 				66862DC62536F51C004D4412 /* Components */,
 				66862DBE2536F4D2004D4412 /* Model */,
+				66576BF824B850FE0010E1E8 /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
