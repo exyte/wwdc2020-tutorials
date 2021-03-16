@@ -1,8 +1,11 @@
 import SwiftUI
+import WidgetKit
 
 struct UnlockedView: View {
     
     @Environment(\.presentationMode) var presentationMode
+    
+    @EnvironmentObject private var model: AppModel
     
     var body: some View {
         VStack {
@@ -25,6 +28,9 @@ struct UnlockedView: View {
                 .multilineTextAlignment(.leading)
 
             Button(action: {
+                model.resetRideStartDate()
+                model.resetSelectedScooter()
+                WidgetCenter.shared.reloadTimelines(ofKind: "ScooterRideWidget")
                 presentationMode.wrappedValue.dismiss()
             }) {
                 Image(systemName: "stop.fill").resizable()

@@ -15,6 +15,7 @@ struct MainView: View {
                 PopupView(selectedScooter: $model.selectedScooter)
                     .zIndex(1)
                     .transition(.moveAndFade)
+                    .environmentObject(model)
             }
         }
     }

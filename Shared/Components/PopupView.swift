@@ -1,6 +1,9 @@
 import SwiftUI
+import WidgetKit
 
 struct PopupView: View {
+    
+    @EnvironmentObject private var model: AppModel
     
     @Binding var selectedScooter: Scooter?
     @State var isPresented: Bool = false
@@ -41,6 +44,11 @@ struct PopupView: View {
                 .padding()
                 
                 Button("RIDE") {
+                    if let scooterId = selectedScooter?.id {
+                        model.setSelectedScooter(scooterId)
+                    }
+                    model.setRideStartDate(Date())
+                    WidgetCenter.shared.reloadTimelines(ofKind: "ScooterRideWidget")
                     isPresented.toggle()
                 }
                 .frame(width: 90, height: 90)

@@ -11,6 +11,13 @@
 		66576BF724B850FD0010E1E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66576BF624B850FD0010E1E8 /* ContentView.swift */; };
 		66576BF924B850FE0010E1E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66576BF824B850FE0010E1E8 /* Assets.xcassets */; };
 		66576BFC24B850FE0010E1E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66576BFB24B850FE0010E1E8 /* Preview Assets.xcassets */; };
+		666A45E425AEC1030055B96E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 666A45E325AEC1030055B96E /* WidgetKit.framework */; };
+		666A45E625AEC1030055B96E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 666A45E525AEC1030055B96E /* SwiftUI.framework */; };
+		666A45EC25AEC1040055B96E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666A45EB25AEC1040055B96E /* Assets.xcassets */; };
+		666A45EE25AEC1040055B96E /* ScooterRentalAppWidgetExtension.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 666A45EA25AEC1030055B96E /* ScooterRentalAppWidgetExtension.intentdefinition */; };
+		666A45EF25AEC1040055B96E /* ScooterRentalAppWidgetExtension.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 666A45EA25AEC1030055B96E /* ScooterRentalAppWidgetExtension.intentdefinition */; };
+		666A45F225AEC1040055B96E /* ScooterRentalAppWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 666A45E125AEC1030055B96E /* ScooterRentalAppWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		66758A0825BACD1100D9A2E9 /* ListWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66758A0325BACD0A00D9A2E9 /* ListWidget.swift */; };
 		66862DC02536F4E1004D4412 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66862DBF2536F4E1004D4412 /* AppModel.swift */; };
 		66862DC32536F4F2004D4412 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66862DBF2536F4E1004D4412 /* AppModel.swift */; };
 		66862DC92536F5AB004D4412 /* Scooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66862DC82536F5AB004D4412 /* Scooter.swift */; };
@@ -34,6 +41,17 @@
 		66862E042536F7D0004D4412 /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66862E032536F7D0004D4412 /* PopupView.swift */; };
 		66862E052536F7D0004D4412 /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66862E032536F7D0004D4412 /* PopupView.swift */; };
 		66A75A6D2535BB340034A468 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66576BF624B850FD0010E1E8 /* ContentView.swift */; };
+		66B2C05825B6C459003790C1 /* Scooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66862DC82536F5AB004D4412 /* Scooter.swift */; };
+		66B2C05925B6C459003790C1 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66862DBF2536F4E1004D4412 /* AppModel.swift */; };
+		66B2C06125B6E498003790C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66576BF824B850FE0010E1E8 /* Assets.xcassets */; };
+		66D99CC425FA08B600BFAD9F /* ScooterEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D99CC325FA08B600BFAD9F /* ScooterEntry.swift */; };
+		66D99CCA25FA090100BFAD9F /* RideTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D99CC925FA090100BFAD9F /* RideTimelineProvider.swift */; };
+		66D99CCF25FA095600BFAD9F /* RideWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D99CCE25FA095600BFAD9F /* RideWidgetEntryView.swift */; };
+		66D99CD525FA09AE00BFAD9F /* RideWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D99CD425FA09AE00BFAD9F /* RideWidget.swift */; };
+		66D99CE125FA0A4200BFAD9F /* ListTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D99CE025FA0A4200BFAD9F /* ListTimelineProvider.swift */; };
+		66D99CE925FA0A9A00BFAD9F /* ListWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D99CE825FA0A9A00BFAD9F /* ListWidgetEntryView.swift */; };
+		66D99CEF25FA0ACD00BFAD9F /* ScooterListEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D99CEE25FA0ACD00BFAD9F /* ScooterListEntry.swift */; };
+		66D99CF725FA0BC000BFAD9F /* ScooterRentalAppWidgetExtensionBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D99CF625FA0BC000BFAD9F /* ScooterRentalAppWidgetExtensionBundle.swift */; };
 		66FE1FF724BC7AE50090F669 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FE1FF624BC7AE50090F669 /* Preview Assets.xcassets */; };
 		66FE1FFC24BC7AE50090F669 /* ScooterRentalAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 66FE1FED24BC7AE30090F669 /* ScooterRentalAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		66FE200524BC7D310090F669 /* ScooterRentalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66576BF424B850FD0010E1E8 /* ScooterRentalApp.swift */; };
@@ -41,6 +59,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		666A45F025AEC1040055B96E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66576BE924B850FD0010E1E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 666A45E025AEC1030055B96E;
+			remoteInfo = ScooterRentalAppWidgetExtensionExtension;
+		};
 		66FE1FFA24BC7AE50090F669 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 66576BE924B850FD0010E1E8 /* Project object */;
@@ -51,6 +76,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		666A45F625AEC1040055B96E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				666A45F225AEC1040055B96E /* ScooterRentalAppWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		66FE1FFD24BC7AE50090F669 /* Embed App Clips */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,6 +107,13 @@
 		66576BF824B850FE0010E1E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66576BFB24B850FE0010E1E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		66576BFD24B850FE0010E1E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666A45E125AEC1030055B96E /* ScooterRentalAppWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ScooterRentalAppWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		666A45E325AEC1030055B96E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		666A45E525AEC1030055B96E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		666A45EA25AEC1030055B96E /* ScooterRentalAppWidgetExtension.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = ScooterRentalAppWidgetExtension.intentdefinition; sourceTree = "<group>"; };
+		666A45EB25AEC1040055B96E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		666A45ED25AEC1040055B96E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66758A0325BACD0A00D9A2E9 /* ListWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWidget.swift; sourceTree = "<group>"; };
 		66862DBF2536F4E1004D4412 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		66862DC82536F5AB004D4412 /* Scooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scooter.swift; sourceTree = "<group>"; };
 		66862DCF2536F5DE004D4412 /* ScooterIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScooterIconView.swift; sourceTree = "<group>"; };
@@ -84,6 +127,15 @@
 		66862E032536F7D0004D4412 /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
 		66862E152536F8F8004D4412 /* ScooterRentalAppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScooterRentalAppClip.entitlements; sourceTree = "<group>"; };
 		66862E162536F9A8004D4412 /* ScooterRentalApp.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = ScooterRentalApp.entitlements; sourceTree = "<group>"; };
+		66B2C05D25B6C604003790C1 /* ScooterRentalAppWidgetExtensionExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScooterRentalAppWidgetExtensionExtension.entitlements; sourceTree = "<group>"; };
+		66D99CC325FA08B600BFAD9F /* ScooterEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScooterEntry.swift; sourceTree = "<group>"; };
+		66D99CC925FA090100BFAD9F /* RideTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideTimelineProvider.swift; sourceTree = "<group>"; };
+		66D99CCE25FA095600BFAD9F /* RideWidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideWidgetEntryView.swift; sourceTree = "<group>"; };
+		66D99CD425FA09AE00BFAD9F /* RideWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideWidget.swift; sourceTree = "<group>"; };
+		66D99CE025FA0A4200BFAD9F /* ListTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTimelineProvider.swift; sourceTree = "<group>"; };
+		66D99CE825FA0A9A00BFAD9F /* ListWidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWidgetEntryView.swift; sourceTree = "<group>"; };
+		66D99CEE25FA0ACD00BFAD9F /* ScooterListEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScooterListEntry.swift; sourceTree = "<group>"; };
+		66D99CF625FA0BC000BFAD9F /* ScooterRentalAppWidgetExtensionBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScooterRentalAppWidgetExtensionBundle.swift; sourceTree = "<group>"; };
 		66FE1FED24BC7AE30090F669 /* ScooterRentalAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScooterRentalAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66FE1FF624BC7AE50090F669 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		66FE1FF824BC7AE50090F669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,6 +146,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666A45DE25AEC1030055B96E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666A45E625AEC1030055B96E /* SwiftUI.framework in Frameworks */,
+				666A45E425AEC1030055B96E /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,10 +171,13 @@
 		66576BE824B850FD0010E1E8 = {
 			isa = PBXGroup;
 			children = (
+				66B2C05D25B6C604003790C1 /* ScooterRentalAppWidgetExtensionExtension.entitlements */,
 				66862E102536F83B004D4412 /* Shared */,
 				66576BF424B850FD0010E1E8 /* ScooterRentalApp.swift */,
 				66576BF324B850FD0010E1E8 /* App */,
 				66FE1FEE24BC7AE30090F669 /* App Clip */,
+				666A45E725AEC1030055B96E /* Widget Extension */,
+				666A45E225AEC1030055B96E /* Frameworks */,
 				66576BF224B850FD0010E1E8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,6 +187,7 @@
 			children = (
 				66576BF124B850FD0010E1E8 /* ScooterRentalApp.app */,
 				66FE1FED24BC7AE30090F669 /* ScooterRentalAppClip.app */,
+				666A45E125AEC1030055B96E /* ScooterRentalAppWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,6 +208,29 @@
 				66576BFB24B850FE0010E1E8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		666A45E225AEC1030055B96E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				666A45E325AEC1030055B96E /* WidgetKit.framework */,
+				666A45E525AEC1030055B96E /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		666A45E725AEC1030055B96E /* Widget Extension */ = {
+			isa = PBXGroup;
+			children = (
+				66D99CDC25FA09FB00BFAD9F /* Timeline Providers */,
+				66D99CD325FA09A600BFAD9F /* Widgets */,
+				66D99CC825FA08EC00BFAD9F /* Views */,
+				666A45EA25AEC1030055B96E /* ScooterRentalAppWidgetExtension.intentdefinition */,
+				666A45EB25AEC1040055B96E /* Assets.xcassets */,
+				666A45ED25AEC1040055B96E /* Info.plist */,
+				66D99CF625FA0BC000BFAD9F /* ScooterRentalAppWidgetExtensionBundle.swift */,
+			);
+			path = "Widget Extension";
 			sourceTree = "<group>";
 		};
 		66862DBE2536F4D2004D4412 /* Model */ = {
@@ -189,6 +277,43 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
+		66D99CC825FA08EC00BFAD9F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				66D99CCE25FA095600BFAD9F /* RideWidgetEntryView.swift */,
+				66D99CE825FA0A9A00BFAD9F /* ListWidgetEntryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		66D99CD325FA09A600BFAD9F /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				66D99CD425FA09AE00BFAD9F /* RideWidget.swift */,
+				66758A0325BACD0A00D9A2E9 /* ListWidget.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		66D99CDC25FA09FB00BFAD9F /* Timeline Providers */ = {
+			isa = PBXGroup;
+			children = (
+				66D99CED25FA0ABA00BFAD9F /* Entries */,
+				66D99CC925FA090100BFAD9F /* RideTimelineProvider.swift */,
+				66D99CE025FA0A4200BFAD9F /* ListTimelineProvider.swift */,
+			);
+			path = "Timeline Providers";
+			sourceTree = "<group>";
+		};
+		66D99CED25FA0ABA00BFAD9F /* Entries */ = {
+			isa = PBXGroup;
+			children = (
+				66D99CC325FA08B600BFAD9F /* ScooterEntry.swift */,
+				66D99CEE25FA0ACD00BFAD9F /* ScooterListEntry.swift */,
+			);
+			path = Entries;
+			sourceTree = "<group>";
+		};
 		66FE1FEE24BC7AE30090F669 /* App Clip */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,16 +343,35 @@
 				66576BEE24B850FD0010E1E8 /* Frameworks */,
 				66576BEF24B850FD0010E1E8 /* Resources */,
 				66FE1FFD24BC7AE50090F669 /* Embed App Clips */,
+				666A45F625AEC1040055B96E /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				66FE1FFB24BC7AE50090F669 /* PBXTargetDependency */,
+				666A45F125AEC1040055B96E /* PBXTargetDependency */,
 			);
 			name = ScooterRentalApp;
 			productName = ScooterAppClipDemo;
 			productReference = 66576BF124B850FD0010E1E8 /* ScooterRentalApp.app */;
 			productType = "com.apple.product-type.application";
+		};
+		666A45E025AEC1030055B96E /* ScooterRentalAppWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 666A45F325AEC1040055B96E /* Build configuration list for PBXNativeTarget "ScooterRentalAppWidgetExtension" */;
+			buildPhases = (
+				666A45DD25AEC1030055B96E /* Sources */,
+				666A45DE25AEC1030055B96E /* Frameworks */,
+				666A45DF25AEC1030055B96E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScooterRentalAppWidgetExtension;
+			productName = ScooterRentalAppWidgetExtensionExtension;
+			productReference = 666A45E125AEC1030055B96E /* ScooterRentalAppWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 		66FE1FEC24BC7AE30090F669 /* ScooterRentalAppClip */ = {
 			isa = PBXNativeTarget;
@@ -252,11 +396,14 @@
 		66576BE924B850FD0010E1E8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1200;
+				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					66576BF024B850FD0010E1E8 = {
 						CreatedOnToolsVersion = 12.0;
+					};
+					666A45E025AEC1030055B96E = {
+						CreatedOnToolsVersion = 12.2;
 					};
 					66FE1FEC24BC7AE30090F669 = {
 						CreatedOnToolsVersion = 12.0;
@@ -278,6 +425,7 @@
 			targets = (
 				66576BF024B850FD0010E1E8 /* ScooterRentalApp */,
 				66FE1FEC24BC7AE30090F669 /* ScooterRentalAppClip */,
+				666A45E025AEC1030055B96E /* ScooterRentalAppWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -289,6 +437,15 @@
 			files = (
 				66576BFC24B850FE0010E1E8 /* Preview Assets.xcassets in Resources */,
 				66576BF924B850FE0010E1E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666A45DF25AEC1030055B96E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B2C06125B6E498003790C1 /* Assets.xcassets in Resources */,
+				666A45EC25AEC1040055B96E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +467,7 @@
 			files = (
 				66862DC92536F5AB004D4412 /* Scooter.swift in Sources */,
 				66862DFA2536F783004D4412 /* UnlockedView.swift in Sources */,
+				666A45EF25AEC1040055B96E /* ScooterRentalAppWidgetExtension.intentdefinition in Sources */,
 				66862DDD2536F668004D4412 /* FareView.swift in Sources */,
 				66862DFF2536F7A8004D4412 /* MapView.swift in Sources */,
 				66576BF724B850FD0010E1E8 /* ContentView.swift in Sources */,
@@ -321,6 +479,25 @@
 				66862DC02536F4E1004D4412 /* AppModel.swift in Sources */,
 				66862DE42536F6CD004D4412 /* MainView.swift in Sources */,
 				66862DD02536F5DE004D4412 /* ScooterIconView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666A45DD25AEC1030055B96E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66758A0825BACD1100D9A2E9 /* ListWidget.swift in Sources */,
+				66D99CCF25FA095600BFAD9F /* RideWidgetEntryView.swift in Sources */,
+				66D99CE925FA0A9A00BFAD9F /* ListWidgetEntryView.swift in Sources */,
+				666A45EE25AEC1040055B96E /* ScooterRentalAppWidgetExtension.intentdefinition in Sources */,
+				66B2C05825B6C459003790C1 /* Scooter.swift in Sources */,
+				66D99CE125FA0A4200BFAD9F /* ListTimelineProvider.swift in Sources */,
+				66D99CD525FA09AE00BFAD9F /* RideWidget.swift in Sources */,
+				66D99CC425FA08B600BFAD9F /* ScooterEntry.swift in Sources */,
+				66D99CCA25FA090100BFAD9F /* RideTimelineProvider.swift in Sources */,
+				66D99CEF25FA0ACD00BFAD9F /* ScooterListEntry.swift in Sources */,
+				66B2C05925B6C459003790C1 /* AppModel.swift in Sources */,
+				66D99CF725FA0BC000BFAD9F /* ScooterRentalAppWidgetExtensionBundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +524,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		666A45F125AEC1040055B96E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 666A45E025AEC1030055B96E /* ScooterRentalAppWidgetExtension */;
+			targetProxy = 666A45F025AEC1040055B96E /* PBXContainerItemProxy */;
+		};
 		66FE1FFB24BC7AE50090F669 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 66FE1FEC24BC7AE30090F669 /* ScooterRentalAppClip */;
@@ -478,9 +660,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = App/ScooterRentalApp.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
@@ -508,7 +690,7 @@
 				CODE_SIGN_ENTITLEMENTS = App/ScooterRentalApp.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Distribution";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
@@ -526,15 +708,65 @@
 			};
 			name = Release;
 		};
+		666A45F425AEC1040055B96E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = ScooterRentalAppWidgetExtensionExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Widget Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.ScooterRentalApp.WidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		666A45F525AEC1040055B96E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = ScooterRentalAppWidgetExtensionExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Widget Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.ScooterRentalApp.WidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		66FE1FFE24BC7AE50090F669 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "App Clip/ScooterRentalAppClip.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"App Clip/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
@@ -561,7 +793,7 @@
 				CODE_SIGN_ENTITLEMENTS = "App Clip/ScooterRentalAppClip.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Distribution";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"App Clip/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
@@ -597,6 +829,15 @@
 			buildConfigurations = (
 				66576C0124B850FE0010E1E8 /* Debug */,
 				66576C0224B850FE0010E1E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		666A45F325AEC1040055B96E /* Build configuration list for PBXNativeTarget "ScooterRentalAppWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666A45F425AEC1040055B96E /* Debug */,
+				666A45F525AEC1040055B96E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
